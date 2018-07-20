@@ -18,6 +18,7 @@ cd nodejs-ECSinfo
 
 ```bash
 npm install
+npm run start
 ```
 
 ## Use Docker
