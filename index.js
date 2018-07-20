@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-var request = require("request")
+var request = require('request')
 app.set('view engine', 'pug'); 
 
 url = "http://169.254.169.254/openstack/2015-10-15/meta_data.json"
