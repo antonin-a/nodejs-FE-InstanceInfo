@@ -2,13 +2,21 @@ nodejs-ECSinfo
 ======================
 
 A basic nodejs webpage to display Flexible Engine ECS information 
+## Requirements
 
-Installation
-------------
+* Node 8
+* Git
 
-'''
-	$ git clone 
-	$ cd nodejs-ECSinfo
-	$ npm install express
-	$ npm install pug
-'''
+## Common setup
+
+Clone the repo and install the dependencies.
+
+```bash
+git clone https://github.com/antonin-a/nodejs-ECSinfo.git
+cd nodejs-ECSinfo
+```
+
+```bash
+npm install
+```
+
