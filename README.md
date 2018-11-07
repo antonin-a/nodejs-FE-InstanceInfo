@@ -33,12 +33,12 @@ git clone https://github.com/antonin-a/nodejs-ECSinfo.git
 Step 2: Build the Docker image
 
 ```bash
-docker build -t ECSinfo .
+sudo docker build -t ecs-info .
 ```
 
 Step 3: Run the Docker container locally:
 
 ```bash
-docker run -p 3000:3000 -d ECSinfo
+docker run -p 3000:3000 -d ecs-info
 ```
 
