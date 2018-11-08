@@ -1,7 +1,7 @@
 nodejs-ECSinfo
 ======================
 
-A basic nodejs webpage to display Flexible Engine ECS information 
+A basic nodejs webpage to display Flexible Engine current ECS information 
 ## Requirements
 
 * Node 8
