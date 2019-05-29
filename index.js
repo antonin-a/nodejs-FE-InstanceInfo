@@ -15,9 +15,10 @@ request({
         if (!error && response.statusCode === 200) {
             console.log('ok') // Print the json response
             	 res.render('index', { 
-			title: 'Flexible Engine ECS', 
+			title: 'Flexible Engine Instance', 
 			AZ: 'Availability Zone: '+ body['availability_zone'],
-			ECS: 'Current ECS: '+body['name'],
+			instanceName: 'Instance Name: '+body['name'],
+			instanceID: 'Instance ID:' +body['uuid'],
 			Flavor: 'Flavor: '+body['meta']['metering.resourcespeccode'],
 			Image: 'Image: '+body['meta']['image_name'],
 			OS: 'OS: '+body['meta']['os_type']});
